@@ -1,4 +1,3 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+console.log("1 || 2 = "+(1 || 2));
