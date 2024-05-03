@@ -1,3 +1,2 @@
-console.log("1 || 2 = "+(1 || 2));
-const arrayContains = (arr, element) => arr.includes(element);
-const removeDuplicates = (arr) => [...new Set(arr)];
+const results = await Promise.all(resultingPromises);
+const merge = (a, b) => a.concat(b);
