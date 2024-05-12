@@ -1,2 +1,3 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const uniqueArray = arr => [...new Set(arr)];
+const updated = numbers.filter(element => element > 6);
