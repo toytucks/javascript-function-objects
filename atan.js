@@ -1,3 +1,3 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
 const uniqueArray = arr => [...new Set(arr)];
-const updated = numbers.filter(element => element > 6);
+const merge = Object.assign({}, obj1, obj2);
+console.log(1 +  -"1" + "2");
