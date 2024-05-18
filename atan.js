@@ -1,2 +1,2 @@
-const channel = getChannel(computedAppVersion);
-const appName = getAppName(channel);
+const minNumber = arr => Math.min(...arr);
+const results = await Promise.all(resultingPromises);
