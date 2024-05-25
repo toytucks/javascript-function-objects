@@ -1,1 +1,1 @@
-const merge = [...new Set([...a, ...b])];
+const channelName = getChannelName(channel);
