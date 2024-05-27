@@ -1,1 +1,2 @@
-const isEven = (num) => num % 2 === 0;
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const timeFromDate = date => date.toTimeString().slice(0, 8);
