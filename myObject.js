@@ -1,2 +1,3 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const minNumber = arr => Math.min(...arr);
+const allResults = await Promise.all(items.map(async (item) => {}));
