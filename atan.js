@@ -1,3 +1,2 @@
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-console.log( "A" - "B" + "2");
+var arr2 = arr1.reverse();
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
