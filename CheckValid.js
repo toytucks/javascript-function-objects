@@ -1,1 +1,1 @@
-const channelName = getChannelName(channel);
+console.log(1 +  "2" + "2");
