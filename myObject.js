@@ -1,3 +1,3 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const merge = (a, b) => a.concat(b);
-const getRandomBoolean = () => Math.random() >= 0.5;
+const isTabInView = () => !document.hidden;
+const goToTop = () => window.scrollTo(0, 0);
+const removeDuplicates = (arr) => [...new Set(arr)];
