@@ -1,1 +1,3 @@
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+console.log(1 +  "2" + "2");
+console.log(1 +  -"1" + "2");
