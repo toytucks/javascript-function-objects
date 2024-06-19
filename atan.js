@@ -1,2 +1,2 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const isEven = (num) => num % 2 === 0;
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+var DELIM_SIZE = 4;
