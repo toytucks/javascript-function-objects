@@ -1,2 +1,3 @@
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-var DELIM_SIZE = 4;
+const removeDuplicates = (arr) => [...new Set(arr)];
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const channel = getChannel(computedAppVersion);
