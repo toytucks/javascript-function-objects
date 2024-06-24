@@ -1,3 +1,2 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const channel = getChannel(computedAppVersion);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const arrayContains = (arr, element) => arr.includes(element);
