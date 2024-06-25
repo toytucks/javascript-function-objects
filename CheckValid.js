@@ -1,3 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-console.log(1 +  "2" + "2");
-console.log(1 +  -"1" + "2");
+const isArray = (arr) => Array.isArray(arr);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
