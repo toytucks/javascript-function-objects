@@ -1,1 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const randomString = () => Math.random().toString(36).slice(2);
+const executableName = getExecutableName(channel, appName);
+const results = await Promise.all(resultingPromises);
