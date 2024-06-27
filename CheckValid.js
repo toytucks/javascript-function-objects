@@ -1,2 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const repositoryRootPath = path.resolve(__dirname, '..');
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
