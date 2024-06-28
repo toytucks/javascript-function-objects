@@ -1,3 +1,2 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const executableName = getExecutableName(channel, appName);
-const results = await Promise.all(resultingPromises);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
