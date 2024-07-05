@@ -1,3 +1,2 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-console.log(false === '0');
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
