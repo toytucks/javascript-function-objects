@@ -1,2 +1,3 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const results = await Promise.all(resultingPromises);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const arrayContains = (arr, element) => arr.includes(element);
