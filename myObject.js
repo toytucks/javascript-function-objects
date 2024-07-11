@@ -1,2 +1,1 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
