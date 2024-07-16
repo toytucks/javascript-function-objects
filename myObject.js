@@ -1,3 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-[foo, bar] = [bar, foo];
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const isTabInView = () => !document.hidden;
+console.log( "A" - "B" + "2");
+const merge = [...new Set([...a, ...b])];
