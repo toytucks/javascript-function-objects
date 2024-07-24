@@ -1,3 +1,3 @@
-const reversedString = str => str.split('').reverse().join('');
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const executableName = getExecutableName(channel, appName);
