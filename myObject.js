@@ -1,2 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const minNumber = arr => Math.min(...arr);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
