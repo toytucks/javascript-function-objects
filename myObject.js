@@ -1,3 +1,2 @@
-console.log(false == '0');
-var arr2 = arr1.reverse();
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const value = ( 5 < 7 ) ? "True" : "False" ;
